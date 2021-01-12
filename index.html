@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/tlogo.jpg">
+    <title>Duel.com</title>
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="background:#72ec463d;">
+<div class="container">
+<nav class=" navbar navbar-expand-md mt-3 navbar-light ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="logo" height="100px">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbartoggle"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbartoggle">
+      <ul class="navbar-nav  ml-auto">
+        <li  class=" nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#Gallery">Gallery</a></li>
+
+
+        <li  class="nav-item"><button class="btn" data-target="#About" data-toggle="modal">About Me</button></li>
+
+
+        <li  class="nav-item"><button class="btn" data-toggle="modal" data-target="#contract">Contract Me</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--contract-->
+
+<div id="contract" class="modal">
+
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">
+        contract me
+      </h5>
+      <button type="button" class="close" data-dismiss="modal" name="button"><span>&times;</span></button>
+    </div>
+    <div class="modal-body">
+      <form class="" action="index.html" method="post">
+        <div class="form-group">
+          <div>
+            <label for="">Your Name:</label>
+            <input type="text" name="" value="" placeholder="Enter your name" class="form-control">
+          </div>
+          <div>
+            <label for="">Your Email:</label>
+            <input type="text" name="" value="" placeholder="Enter your Email" class="form-control">
+          </div>
+          <label for="">Your Messages:</label>
+          <textarea name="name" class="form-control" placeholder="Type your Messeges"></textarea>
+        </div>
+
+      </form>
+    </div>
+
+
+    <div class="modal-footer">
+
+        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-success" name="button">Send</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--About-->
+
+<div class="modal" id="About">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <h5 class="modal-title"></h5>
+    <button type="button" class="close text-right mr-3" data-dismiss="modal"
+     name="button"><span>&times;</span></button>
+      <div class="modal-body">
+     <div class="row">
+       <div class="col-6">
+         <img class="rounded abt-style" src="img/modal.jpg" alt="duel" height="250px" width="240px">
+       </div>
+       <div class="col-6">
+          <h3>Duel Ahamed Rohid</h3>
+          <i>From Dakatia Bhaluka Mymensingh</i>
+          <p>I'm a Freelancer</p>
+          <p>call <strong><i>01631951932</i></strong></p>
+       </div>
+     </div>
+
+    </div>
+    <div class="modal-footer">
+
+<button class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Login -->
+<div class="log-reg">
+<div class="lgin">
+<button class="btn btn-primary lgin" type="button" name="button" data-toggle="modal" data-target="#login">Login</button>
+
+<div id="login" class="modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">
+        Login here
+      </h5>
+      <button type="button" class="close" data-dismiss="modal" name="button"><span>&times;
+      </span></button>
+    </div>
+    <div class="modal-body">
+      <form action="">
+        <div class="form-group">
+          <div>
+            <label for="">Username:</label>
+            <input type="text" name="" value="" class="form-control" placeholder="Enter  Username">
+          </div>
+          <div>
+            <label for="">Password:</label>
+            <input type="text" name="" value="" class="form-control" placeholder="Enter your Password">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+
+      <button type="button" class=" btn btn-secondary" data-dismiss="modal" name="button">Close</button>
+      <button type="button" class=" btn btn-success"  name="button">Login</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--Registration-->
+
+
+
+<div class="reg">
+<button class="btn btn-primary" type="button" name="button" data-target="#reg" data-toggle="modal">Registration</button>
+
+
+<div class="modal" id="reg">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          Registration Here
+        </h5>
+        <button type="button" name="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <div class="form-group">
+            <div>
+              <label for="">Username:</label>
+              <input type="text" placeholder=" Enter Username" class="form-control" name="" value="">
+            </div>
+
+            <div>
+              <label for="">Email:</label>
+              <input type="Email" placeholder="Enter your Email" class="form-control" name="" value="">
+            </div>
+
+            <div>
+              <label for="">Password:</label>
+              <input type="Password" placeholder="Enter your Password" class="form-control" name="" value="">
+            </div>
+
+            <div>
+              <label for="">Re-Type-Password:</label>
+              <input type="Password" placeholder="Enter Re-Type-Password" class="form-control" name="" value="">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal" type="button" name="button">Close</button>
+        <button type="button" class="btn btn-success" name="button">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- SLIDER SECTION-->
+
+
+    <div id="jhdfh" class="carousel slide rounded mt-5" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#jhdfh" data-slide-to="0"></li>
+        <li data-target="#jhdfh" data-slide-to="1"></li>
+          <li data-target="#jhdfh" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Nature.webp" alt="duel" class=" d-block w-100 " height="340px">
+        </div>
+        <div class="carousel-item ">
+          <img src="img/duel.jpg" alt="Duel1" class=" d-block w-100"  height="340px">
+        </div>
+        <div class="carousel-item ">
+          <img src="img/developer.png" alt="duel2" class=" d-block w-100"  height="340px">
+        </div>
+      </div>
+      <a href="#jhdfh" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+      <a href="#jhdfh" data-slide="next"class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+    </div>
+
+
+
+<!--ABOUT SECTION-->
+<section class="text-center my-5 py-5 bg-dark text-light rounded">
+<div class="row">
+  <div class="col-12">
+    <h1 class="display-2">Hay!</h1>
+    <h1>I'm <strong>Duel Ahamed Rohid</strong></h1>
+    <h5>Bhaluka,Mymensingh,Bangladesh</h5>
+    <h5>I want to be a <strong> Freelancer</strong></h5>
+  </div>
+</div>
+</section>
+
+<!--SKILL SECTION -->
+<div class="text-center  bg-success text-light py-5 my-4 rounded">
+  <h3>Here some of my skills</h3>
+  <h5> <ul>
+
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>Bootstrap4</li>
+
+  </ul></h5>
+</div>
+
+<!--Gallery Seection-->
+
+<section class="gallery text-center my-5">
+  <div class="row">
+    <div class="rounded">
+      <img class="mb-5 col-md-3 col-sm-12 w-100" src="img/duel1.jpg" alt="Galler/Duel">
+
+      <img class="mb-5 col-md-3 col-sm-12 w-100" src="img/duel2.jpg" alt="Galler/Duel">
+
+      <img class="mb-5 col-md-3 col-sm-12 w-100" src="img/duel3.jpg" alt="Galler/Duel">
+
+    <div class="">
+      <img class="mb-5 col-md-3 col-sm-12 w-100" src="img/duel4.jpg"  alt="Galler/Duel">
+
+      <img class="mb-5 col-md-3 col-sm-12 w-100" src="img/duel5.jpg" alt="Galler/Duel">
+
+      <img class=" mb-5 col-md-3 col-sm-12 w-100" src="img/duel6.jpg" alt="Galler/Duel">
+    </div>
+  </div>
+    </div>
+</section>
+
+<!--Contract me section-->
+<section class="Contract">
+  <div class="head my-5">
+    <h4><strong> Are you want to Contract Me?</strong></h4>
+    <form action="">
+      <div class="name">
+      <label for="#name">Your Name:</label>
+      <input  class="form-control" type="text" placeholder="Enter your name">
+      </div>
+      <div class="name">
+      <label for="#Email">Your Email address:</label>
+      <input class="form-control" type="text" placeholder="Enter your Email address">
+      </div>
+      <label for="">Your Message:</label>
+      .<textarea name="name" class="form-control" placeholder="Enter your Messages"  ></textarea><br>
+      <input class="btn btn-primary" type="submit" name="" value="Send">
+    </form>
+  </div>
+</section>
+
+<!--footer section-->
+
+<div class="footer bg-dark text-center py-5 text-light rounded  my-5">
+  <span><strong > Copyright &copy; 2021</strong></span><br><br>
+  <span>Designed By:  <a target="_blank" href="https://www.facebook.com/freelancerduel">Duel Ahamed Rohid</a></span>
+</div>
+
+
+</div>
+
+<!-- js codes -->
+
+<script>
+    $('.carousel').carousel({
+      interval:1000
+    });
+  </script>
+
+
+
+
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+
+</body>
+</html>
